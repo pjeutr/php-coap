@@ -1,5 +1,5 @@
 {
-    "name": "ekongyun/php-coap",
+    "name": "pjeutr/php-coap",
     "type": "library",
     "description": "coap framework",
     "license": "Apache-2.0",
