@@ -19,7 +19,7 @@ class CoapRequest extends CoapPdu
 
 		$this->uriParts = $parts;
 
-		$this->addOption( new CoapOption( 3, $this->getHost() ) );
+		//$this->addOption( new CoapOption( 3, $this->getHost() ) );
 		$this->addOption( new CoapOption( 11, substr( $this->uriParts['path'], 1 ) ) );
 		if ( isset( $this->uriParts['query'] ) )
 		{
